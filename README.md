@@ -16,6 +16,15 @@ PSVA-Net (**Part Semantic-Guided Visual Alignment Network**) addresses these cha
 - **Part-semantic-guided visual alignment:** associates domain-specific part semantics with relevant local visual regions.
 - **Category-conditioned fusion:** dynamically adjusts the contribution of part-level evidence for each candidate category.
 
+## Datasets
+
+The experiments in this work were conducted on the FAIR1M and MAR20 datasets. The datasets can be obtained from their official sources:
+
+- **FAIR1M:** [Official benchmark and download page](https://www.gaofen-challenge.com/benchmark)
+- **MAR20:** [OneDrive](https://1drv.ms/u/s!AmgKYzARBl5ceGUKiVsRzfxZa_4?e=K21Spg) | [Baidu Netdisk](https://pan.baidu.com/s/1VpQGGoSVTdFCtROVnH4s3A?pwd=wye2) (access code: `wye2`)
+
+Please follow the licenses and terms of use specified by the respective dataset providers.
+
 ## Experimental Results
 
 PSVA-Net was evaluated on the FAIR1M and MAR20 fine-grained aircraft recognition benchmarks. It achieved:
